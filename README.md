@@ -37,6 +37,7 @@ https://gitlab.com/fazzi/startpage
 I recommend starting a local server with the start page by putting `python -m http.server PORT -d /PATH/TO/STARTPAGE` in your hyprland.conf and then using the `new tab override` extension to set it as new tab
 
 ### 4. Install configs
+Clone the repo  
 Copy contents of `config` folder to $HOME/.config  
 Rename `zshrc` to .zshrc and copy to $HOME  
 Copy `p10k.zsh` to $HOME
