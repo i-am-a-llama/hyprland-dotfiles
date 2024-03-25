@@ -19,7 +19,10 @@
 `eza` : ls replacement
 
 ## Other cool things (optional)
-`termdown` : terminal clock with `termdown -f larry3d -z -Z "%H:%M"`
+`termdown` : terminal clock with `termdown -f larry3d -z -Z "%H:%M"`  
+`spicetify` : spotify themes and extensions  
+`text theme` : spicetify theme  
+`tomato.c` : pomodoro timer with ambient noise (https://github.com/gabrielzschmitz/Tomato.C)  
 
 ## How to install
 
