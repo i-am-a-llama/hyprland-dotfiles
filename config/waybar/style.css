@@ -1,0 +1,199 @@
+@import "mocha.css";
+
+* {
+  font-family: CaskaydiaCove Nerd Font;
+  font-size: 15px;
+  min-height: 0;
+  border-radius: 1rem;
+}
+
+#custom-updates {
+  margin: 7px 3px 2px 7px;
+  padding-left: 10px;
+  padding-right: 15px;
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+/*  background: linear-gradient(360deg,@peach,@rosewater); */
+}
+
+#custom-arch {
+  margin: 7px 3px 2px 7px;
+  padding-left: 10px;
+  padding-right: 18px;
+  background-color: alpha(@surface0, 0.5);
+  font-size: 25px;
+  color: @rosewater;
+/*  background: linear-gradient(@rosewater,@pink); */
+}
+
+window#waybar {
+  background: transparent
+}
+
+
+#custom-lock {
+	margin: 7px 3px 2px 7px;
+	padding-left: 10px;
+	padding-right: 10px;
+	background-color: alpha(@surface0, 0.5);
+	color: @rosewater;
+}
+
+.custom-spotify {
+  padding: 4 10px;
+  margin: 7px 3px 2px 7px;
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+/*  background: linear-gradient(@rosewater,@mauve); */
+}
+
+#custom-trans {
+  margin: 7px 3px 2px 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+}
+#cava {
+  background-color: alpha(@surface0, 0.5);
+  margin: 7px 0px 0px 7px;
+  padding-left: 10px;
+  padding-right: 10px;
+/*  background: linear-gradient(@rosewater 0%, @mauve 100%); */
+  color: @rosewater;
+}
+#workspaces {
+  background-color: alpha(@surface0, 0.5);
+  margin-top: 1rem;
+  margin: 7px 0px 0px 7px;
+  padding-left: 1px;
+  padding-right: 1px;
+  border-radius: 360px;
+}
+
+#workspaces button {
+  color: @rosewater;
+  border-radius: 360px;
+  padding-left: 6px;
+  margin: 5px 4;
+  box-shadow: inset 0 -3px transparent;
+  transition: all 0.4s cubic-bezier(.05,0.9,.1,1);
+  background-color: alpha(@surface0, 0.7);
+}
+
+#workspaces button.active {
+  padding-left: 20px;
+  padding-right: 23px;
+  color: @surface0;
+  background: linear-gradient(@rosewater,@pink);
+}
+
+#workspaces button:hover {
+  
+}
+
+#tray {
+  padding-left: 4px;
+  padding-right: 4px;
+  margin: 0px 0px 0px 0px;
+  background-color: alpha(@surface0, 0.5);
+/*  background: linear-gradient(alpha(@rosewater, 0.7),alpha(@lavender, 1)); */ 
+}
+
+#network,
+#backlight,
+#clock,
+#battery,
+#pulseaudio,
+#custom-lock,
+#custom-power {
+  background-color: alpha(@surface0, 0.5);
+  margin: 7px 3px 0px 7px;
+  padding: 10px 5px 10px 5px;
+}
+
+#clock {
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+  padding-right: 10px;
+  padding-left: 10px;
+/*  background: linear-gradient(@rosewater,@pink); */
+}
+
+
+
+#battery {
+  color: @green;
+}
+
+#battery.charging {
+  color: @green;
+}
+
+#battery.warning:not(.charging) {
+  color: @red;
+}
+
+#network {
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+  padding-right: 17px;
+  padding-left: 10px;
+/*  background: linear-gradient(@rosewater,@mauve); */
+  color: @rosewater;
+}
+
+#backlight {
+  color: @yellow;
+}
+
+#pulseaudio {
+  background-color: alpha(@surface0, 0.5);
+  color: @rosewater;
+  padding-right: 10px;
+  padding-left: 10px;
+/*  background: linear-gradient(@rosewater,@mauve); */
+}
+
+#pulseaudio.muted {
+    color: @red;
+}
+
+#custom-power {
+    border-radius: 1rem;
+    color: @red;
+    margin-bottom: 1rem;
+}
+
+#tray {
+  margin: 7px 8px 2px 7px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+tooltip {
+    background: alpha(@surface0, 0.5);
+    border: 0px solid @pink;
+}
+
+tooltip label {
+    color: @text;
+}
+
+#memory {
+  padding-right: 15px;
+  padding-left: 10px;
+  margin: 7px 3px 2px 7px;
+  background-color: alpha(@surface0, 0.5);
+/*  background: linear-gradient(@pink,@rosewater); */
+  color: @rosewater;
+}
+
+#cpu {
+padding-right: 15px;
+padding-left: 10px;
+margin: 7px 3px 2px 7px;
+background-color: alpha(@surface0, 0.5);
+/* background: linear-gradient(@pink,@rosewater); */
+color: @rosewater;
+}
